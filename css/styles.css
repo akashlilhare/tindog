@@ -53,9 +53,18 @@ h2{
 /* Title Image */
 
 .title-image{
-    width: 50%;
-    transform: rotate(0deg); 
-    margin-left: 10rem;
+    width: 60%;
+    transform: rotate(25 deg); 
+    position: absolute;
+    left: 32%;
+}
+
+/* Feature Secition */
+#features{
+    padding: 7% 15% 7%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .features-box{
@@ -70,9 +79,9 @@ h2{
     /* text-align: center; */
 }
 
+
 .feature-sub-title{
     color: #8f8f8f;
-    
 }
 
 .feature-icon{
@@ -117,9 +126,19 @@ h2{
 
 #pricing{
     padding: 100px;
-    text-align: center;
+    text-align: centerk;
 }
 
 .pricing-column{
     padding: 3% 5%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
 }
