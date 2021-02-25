@@ -164,13 +164,11 @@ h3{
 
 /* Footer section*/
 
-
-
 .social-icon{
-    /* padding: 15px 15px;
+    padding: 15px 15px;
     color:  #ef8172;  
     font-weight: bold;
-    font-size: large; */
+    font-size: large;
 }
 
 .social-icon:hover{
