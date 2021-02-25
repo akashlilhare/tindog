@@ -15,6 +15,14 @@ h2{
     line-height: 1.5;
 }
 
+h3{
+    font-family: "Motstserrat-Bold";
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+
+}
 .container-fluid{
     padding: 3% 15%;
 }
@@ -133,6 +141,10 @@ h2{
     padding: 3% 5%;
 }
 
+.card-header{
+    background-color: #ff4c68;
+}
+
 @media (max-width: 1028px){
     #title{
         text-align: center;
@@ -141,4 +153,26 @@ h2{
         position: static;
         transform: rotate(0);
     }
+}
+
+/* call to action */
+
+#cta{
+    background-color:  #ff4c68;
+    padding: 3% 15%;
+}
+
+/* Footer section*/
+
+
+
+.social-icon{
+    /* padding: 15px 15px;
+    color:  #ef8172;  
+    font-weight: bold;
+    font-size: large; */
+}
+
+.social-icon:hover{
+    color: #ff4c68;
 }
