@@ -87,16 +87,19 @@ h2{
 /* Testimonial section */
 
 #testimonials{
-    padding:7% 15%;
     text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
 
 .testimonial-image{
-    width: 20%;
+    width: 15%;
     border-radius: 100%;
     padding: 20px;
+}
+
+.carousel-item{
+    padding:7% 15%;
 }
 
 #press{
